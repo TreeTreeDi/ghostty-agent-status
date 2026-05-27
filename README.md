@@ -25,14 +25,19 @@ When you run multiple Claude Code agents in different Ghostty tabs, this plugin 
 
 ### 1. Install the plugin via Claude Code
 
-```bash
-claude /plugin add ghostty-agent-status
+在 Claude Code 的交互式会话中输入：
+
+```
+/plugin add https://github.com/TreeTreeDi/ghostty-agent-status
 ```
 
-Or install from GitHub:
+然后运行 `/reload-plugins` 使插件生效。
+
+或者手动安装（不需要通过 marketplace）：
 
 ```bash
-claude /plugin add https://github.com/dsy/ghostty-agent-status
+mkdir -p ~/.claude/plugins/ghostty-agent-status
+curl -L https://github.com/TreeTreeDi/ghostty-agent-status/archive/refs/heads/main.tar.gz | tar xz --strip-components=1 -C ~/.claude/plugins/ghostty-agent-status
 ```
 
 ### 2. Configure Ghostty
