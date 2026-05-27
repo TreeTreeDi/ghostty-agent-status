@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "treetreedi-marketplace",
+  "description": "Personal Claude Code plugins by TreeTreeDi",
+  "owner": {
+    "name": "TreeTreeDi"
+  },
+  "plugins": [
+    {
+      "name": "ghostty-agent-status",
+      "description": "Traffic-light status indicators (🔴🟡🟢) for Claude Code agent tabs in Ghostty terminal",
+      "author": {
+        "name": "TreeTreeDi"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "github",
+        "repo": "TreeTreeDi/ghostty-agent-status"
+      },
+      "homepage": "https://github.com/TreeTreeDi/ghostty-agent-status"
+    }
+  ]
+}
