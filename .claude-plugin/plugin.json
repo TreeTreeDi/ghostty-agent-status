@@ -1,0 +1,8 @@
+{
+  "name": "ghostty-agent-status",
+  "version": "1.0.0",
+  "description": "Traffic-light status indicators (🔴🟡🟢) for Claude Code agent tabs in Ghostty terminal",
+  "author": {
+    "name": "dsy"
+  }
+}
